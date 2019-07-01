@@ -11,7 +11,7 @@ function init() {
       index = 0;
     }
 
-    if index === 10 {
+    if (index === 10) {
       alert("You did it!");
       index = 0;
     }

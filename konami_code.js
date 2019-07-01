@@ -5,14 +5,14 @@ function init() {
   let index = 0;
 
   document.body.addEventListener('keydown', function(e) {
-    if (parseInt(e.which || e.location) === code[index]) {
+    if (parseInt(e.which || e.detail) === code[index]) {
       index++;
     } else {
       index = 0;
     }
 
     if index === 10 {
-      alert()
+      alert("You did it!");
     }
   });
 }

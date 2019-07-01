@@ -13,6 +13,7 @@ function init() {
 
     if index === 10 {
       alert("You did it!");
+      index = 0;
     }
   });
 }
